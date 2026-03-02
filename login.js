@@ -1,4 +1,4 @@
-const API_BASE = "https://websocketserverlivechat-1.onrender.com";
+const API_BASE = "https://advancedchatappserver.onrender.com";
 
 async function login() {
     document.getElementById("msg").innerText = "";

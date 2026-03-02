@@ -2,7 +2,7 @@ const token = localStorage.getItem("token");
 if (!token) window.location.href = "index.html";
 
 // WebSocket URL
-const WS_URL = `wss://websocketserverlivechat-1.onrender.com?token=${token}`;
+const WS_URL = `wss://advancedchatappserver.onrender.com?token=${token}`;
 let socket = new WebSocket(WS_URL);
 
 // DOM elements
